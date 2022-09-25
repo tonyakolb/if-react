@@ -1,0 +1,27 @@
+.pictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.picture {
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+}
+
+.apartment-photo {
+  max-width: 295px;
+}
+
+.hotel-name {
+  color: #3077c6;
+  font-size: 24px;
+  margin: 24px 0;
+}
+
+.hotel-location {
+  color: #bfbfbf;
+  font-size: 24px;
+}
