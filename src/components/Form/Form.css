@@ -1,0 +1,33 @@
+.form-container {
+    margin-bottom: 120px;
+    max-width: 1232px;
+    height: 64px;
+    background: #ffffff;
+    border: 3px solid #f3f3f4;
+    border-radius: 8px;
+}
+
+.row-form {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.col-button {
+    width: 16.6%;
+    height: 64px;
+    background: #3077c6;
+    border-radius: 8px;
+    border: none;
+    margin-block-start: -3px;
+    margin-inline-end: -3px;
+    cursor: pointer;
+}
+
+.button-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}

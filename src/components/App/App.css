@@ -1,40 +1,4 @@
-.homes-title-center {
-  display: flex;
-  justify-content: center;
-}
-
-h2.title {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 105px;
-  font-weight: 500;
-  font-size: 40px;
-}
-
-.pictures {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.picture {
-  height: 435px;
-  display: flex;
-  flex-direction: column;
-}
-
-.apartment-photo {
-  max-width: 295px;
-}
-
-.hotel-name {
-  color: #3077c6;
-  font-size: 24px;
-  margin: 24px 0;
-}
-
-.hotel-location {
-  color: #bfbfbf;
-  font-size: 24px;
+.container {
+  padding-right: 104px;
+  padding-left: 104px;
 }
