@@ -1,3 +1,16 @@
+.homes-title-center {
+  display: flex;
+  justify-content: center;
+}
+
+h2.title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 105px;
+  font-weight: 500;
+  font-size: 40px;
+}
+
 .pictures {
   display: flex;
   flex-direction: row;
