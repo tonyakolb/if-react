@@ -1,12 +1,15 @@
+import React from 'react';
+import TopSection from '../TopSection/TopSection';
 import HomeGuestLoves from '../HomeGuestLoves/HomeGuestLoves';
 import './App.css';
-import React from 'react';
 
-const App=()=>(
+const App = () => {
+  return (
     <>
-        <div className='homes-title-center'><h2 className='title'>Home Guest Loves</h2></div>
-        <HomeGuestLoves/>
+      <TopSection />
+      <HomeGuestLoves />
     </>
-)
+  );
+};
 
 export default App;

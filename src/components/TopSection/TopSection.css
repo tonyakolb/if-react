@@ -1,0 +1,80 @@
+header.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  padding-right: 104px;
+  padding-left: 104px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.roboto-400 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.title-header {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.words {
+  margin-right: 48px;
+}
+
+.words a {
+  text-decoration: none;
+  padding: 12px;
+}
+
+.words a:hover {
+  border-bottom: 4px solid #f5bd41;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo_sett {
+  margin-right: 24px;
+}
+
+.sett_icon {
+  width: 30px;
+  height: 30px;
+  fill: #ffffff;
+}
+
+.acc_icon {
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+}
+
+.menu_icon {
+  display: none;
+}
+
+.logo_sett svg:hover {
+  fill: #f5bd41;
+}
+
+.logo_acc svg:hover {
+  fill: #f5bd41;
+}
+
+.error_text, .main_title{
+  color: white;
+}
