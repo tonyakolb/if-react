@@ -1,20 +1,21 @@
 import React from 'react';
+import './AvailableHomes.css';
 
-function AvailableHomes({ city, country, name, imageUrl }) {
-    return (
-        <div>
-            <figure className="main__free--element">
-                <img src={imageUrl} alt={name}/>
-                <figcaption className="main__name--img">
-                    <a className="nav__link--country">{name}</a>
-                    <a className="main__name--country">
-                        {city}<br/>
-                        {country}
-                    </a>
-                </figcaption>
-            </figure>
-        </div>
-    );
-}
+const AvailableHomes = ({ city, country, name, imageUrl }) => {
+  return (
+    <div>
+      <figure className="main__free--element">
+        <img src={imageUrl} alt={name} />
+        <figcaption className="main__name--img">
+          <p className="nav__link--country">{name}</p>
+          <p className="main__name--country">
+            {city}
+            {country}
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+  );
+};
 
 export default AvailableHomes;

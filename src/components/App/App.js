@@ -1,17 +1,15 @@
-import './App.css';
 import React from 'react';
-import Footer from "../Footer/Footer";
-import TopSection from "../TopSection/TopSection";
-import HomeGuestLoves from "../HomeGuestLoves/HomeGuestLoves";
+import TopSection from '../TopSection/TopSection';
+import HomeGuestLoves from '../HomeGuestLoves/HomeGuestLoves';
+import './App.css';
 
-const App=()=>{
-    return(
-        <>
-            <TopSection />
-            <HomeGuestLoves/>
-            {/*<Footer className='container'/>*/}
-        </>
-    )
-}
+const App = () => {
+  return (
+    <>
+      <TopSection />
+      <HomeGuestLoves />
+    </>
+  );
+};
 
 export default App;
